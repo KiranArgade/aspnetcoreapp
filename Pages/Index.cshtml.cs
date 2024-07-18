@@ -15,6 +15,6 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-
+        GC.Collect(); 
     }
 }
