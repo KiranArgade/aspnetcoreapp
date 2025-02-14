@@ -1,3 +1,5 @@
+namespace aspnetcoreapp.test;
+
 public unsafe int SubarraySum(int[] array, int start, int end)  // Sensitive
 {
     var sum = 0;
