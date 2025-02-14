@@ -6,6 +6,7 @@ namespace aspnetcoreapp.Pages;
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
+    private aspnetcoreapp.Models.Movie _movie
 
     public IndexModel(ILogger<IndexModel> logger)
     {
